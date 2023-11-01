@@ -1,14 +1,18 @@
 # ```StARQ: brainStem Automated Registration and Quantification```
+  
+<p><a href="[https://github.com/itsasimiqbal/StARQ](https://colab.research.google.com/drive/19vQyB9K3jokDSuh9qWAbjBJ8sacyQs2M)"><img src="https://github.com/itsasimiqbal/StARQ/blob/main/StARQ_logo.svg" align="center" width="330" height="215" /> </a>
+</p>
+
 ![alt text](https://github.com/itsasimiqbal/StARQ/blob/main/GitHub_StARQ.png)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19vQyB9K3jokDSuh9qWAbjBJ8sacyQs2M)
 
-StARQ is an open-source software for automated registration and quantification of the brainstem structures in imaging data. StARQ is written in Python and built with PyTorch.
+StARQ is an open-source software for automated segmentation and quantification of the brainstem structures in imaging data. StARQ is written in Python and built with PyTorch.
 
 ## ```Features```
 ```
-- Automated registration of the brainstem structures in 2D images
-- Calculation of quantitative measures such as cross-sectional areas for sub-regions
-- interactive visualization of the results
+- Automated segmentation of the brainstem structures in 2D images
+- Calculation of quantitative measures such as cross-sectional areas for sub-regionsa and signal quantification
+- Interactive visualization of the results
 ```
 Installation
 To install StARQ, you will need to have Python and ANTs installed on your system. Once you have these dependencies installed, you can download the StARQ repository and run the installation script:
