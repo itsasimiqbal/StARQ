@@ -20,11 +20,11 @@ Here's the link to our pre-print article: [<img src="https://www.kuhnlab.uni-bay
 ## ```Usage```
 To use StARQ, you will need to have a set of mouse brainstem images in .tif format (with registration and signal channels). Once your data is prepared, you can run StARQ by executing the following scripts: 
 
-### ```Run on your custom (mouse braistem imaging) dataset```
-Run this Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/itsasimiqbal/StARQ/blob/main/Inference_StARQ_2_0_2024.ipynb) to load your custom image data (.tif files with registration and signal channels) from Google Drive and pass it to the StARQ deep learning framework, and save your signal quantification results.
-
 ### ```Finetune on your custom (mouse braistem imaging) dataset```
 Run the Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/itsasimiqbal/StARQ/blob/main/StARQ_2_0_2024.ipynb) to test it on a sample mouse brainstem imaging data as well as fine-tune on your custom data. The input_directory should be changed with your data, and output_directory should be where you want the results to be saved.
+
+### ```Run on your custom (mouse braistem imaging) dataset```
+Run this Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/itsasimiqbal/StARQ/blob/main/Inference_StARQ_2_0_2024.ipynb) to load your custom image data (.tif files with registration and signal channels) from Google Drive and pass it to the StARQ deep learning framework, and save your signal quantification results.
 
 ## ```Contributing```
 If you are interested in contributing to StARQ, please fork the repository and submit a pull request. We welcome contributions of bug fixes, new features, and improvements to the documentation.
